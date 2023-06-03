@@ -44,7 +44,7 @@ On the home page, you will find general information about the application and th
 
 <image src="src/assets/screenshots/Screenshot_9.png" alt="mobile-view">
 <image src="src/assets/screenshots/Screenshot_10.png" alt="mobile-view">
-<image src="src/assets/screenshots/Screenshot_11.png" alt="mobile-view">
 <image src="src/assets/screenshots/Screenshot_12.png" alt="mobile-view">
 <image src="src/assets/screenshots/Screenshot_13.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_11.png" alt="mobile-view">
 <image src="src/assets/screenshots/Screenshot_14.png" alt="mobile-view">
