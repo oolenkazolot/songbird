@@ -4,7 +4,9 @@ Stack: HTML, CSS, SASS, JavaScript, Webpack
 
 [Link](https://oolenkazolot-songbird.netlify.app/)
 
-"Songbird" is a stunning SPA quiz app that helps users identify birds by their voices.
+"Songbird" is a stunning SPA quiz app that helps users identify birds by their voices
+
+Immerse yourself in an exhilarating quiz where the mysteries of bird names and images unfold upon selecting the correct answer. Experience the atmosphere through vibrant color indicators and musical accompaniment for right and wrong responses. Discover more about each bird by exploring the bird description block
 
 ## Main page
 
@@ -14,8 +16,6 @@ On the home page, you will find general information about the application and th
 <image src="src/assets/screenshots/Screenshot_2.png" alt="main">
 
 ## Quiz page
-
-Immerse yourself in an exhilarating quiz where the mysteries of bird names and images unfold upon selecting the correct answer. Experience the atmosphere through vibrant color indicators and musical accompaniment for right and wrong responses. Discover more about each bird by exploring the bird description block
 
 <image src="src/assets/screenshots/Screenshot_3.png" alt="quiz">
 <image src="src/assets/screenshots/Screenshot_4.png" alt="quiz">
