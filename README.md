@@ -17,34 +17,34 @@ On the home page, you will find general information about the application and th
 
 Immerse yourself in an exhilarating quiz where the mysteries of bird names and images unfold upon selecting the correct answer. Experience the atmosphere through vibrant color indicators and musical accompaniment for right and wrong responses. Discover more about each bird by exploring the bird description block
 
-<image src="assets/screenshots/Screenshot_3.png" alt="quiz">
+<image src="src/assets/screenshots/Screenshot_3.png" alt="quiz">
 <image src="assets/screenshots/Screenshot_4.png" alt="quiz">
 
 ## The top panel of the page displays the game counter and levels
 
-<image src="assets/screenshots/Screenshot_7.png" alt="gallery">
+<image src="src/assets/screenshots/Screenshot_7.png" alt="gallery">
 
 ## A custom audio player built using pure JavaScript
 
-<image src="assets/screenshots/Screenshot_15.png" alt="audio-player">
+<image src="src/assets/screenshots/Screenshot_15.png" alt="audio-player">
 
 ## Bird gallery with information about them (photos, audio, name, description)
 
-<image src="assets/screenshots/Screenshot_5.png" alt="gallery">
+<image src="src/assets/screenshots/Screenshot_5.png" alt="gallery">
 
 ## App localized in 2 languages
 
-<image src="assets/screenshots/Screenshot_6.png" alt="settings">
+<image src="src/assets/screenshots/Screenshot_6.png" alt="settings">
 
 ## Results game
 
-<image src="assets/screenshots/Screenshot_8.png" alt="results">
+<image src="src/assets/screenshots/Screenshot_8.png" alt="results">
 
 ## Mobile view
 
-<image src="assets/screenshots/Screenshot_9.png" alt="mobile-view">
-<image src="assets/screenshots/Screenshot_10.png" alt="mobile-view">
-<image src="assets/screenshots/Screenshot_11.png" alt="mobile-view">
-<image src="assets/screenshots/Screenshot_12.png" alt="mobile-view">
-<image src="assets/screenshots/Screenshot_13.png" alt="mobile-view">
-<image src="assets/screenshots/Screenshot_14.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_9.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_10.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_11.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_12.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_13.png" alt="mobile-view">
+<image src="src/assets/screenshots/Screenshot_14.png" alt="mobile-view">
