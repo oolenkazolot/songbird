@@ -1,0 +1,146 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &__title {
+    visibility: hidden;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      margin-top: 0;
+    }
+  }
+
+  &__logo-link {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity $transition;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__logo-img {
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    @media (min-width: 768px) {
+      margin-top: 0;
+      margin-right: 20px;
+      order: 0;
+    }
+  }
+
+  &__list-item {
+    margin-right: 5px;
+    font-size: 14px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (min-width: 576px) {
+      margin-right: 10px;
+      font-size: 19px;
+    }
+  }
+
+  &__list-link {
+    padding: 10px;
+    color: #fff;
+    border-bottom: solid 2px transparent;
+    transition: border-color, color, 0.7s;
+
+    &:hover {
+      border-color: $color-green;
+      color: $color-green;
+    }
+
+    &:active {
+      border-color: $color-active;
+      color: $color-active;
+    }
+
+    &--active {
+      color: $color-green;
+    }
+  }
+
+  &__lang {
+    order: -1;
+    @media (min-width: 768px) {
+      order: 1;
+    }
+  }
+
+  &__lang-btn {
+    position: relative;
+    font-size: 14px;
+    font-family: inherit;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    transition: color $transition;
+
+    &.en::before {
+      height: 0.9rem;
+      content: '';
+      position: absolute;
+      width: 1px;
+      margin: -0.4rem 0px 0px -0.5rem;
+      background-color: #d6d6d6;
+      top: 50%;
+      pointer-events: none;
+    }
+
+    &:hover {
+      color: $color-green;
+    }
+
+    &:active {
+      color: $color-active;
+    }
+
+    &.active {
+      color: $color-green;
+    }
+  }
+}

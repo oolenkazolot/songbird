@@ -1,0 +1,145 @@
+.player {
+  width: 100%;
+  min-width: 100px;
+  padding-top: 20px;
+  border-top: solid 1px #555;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.buttons {
+  line-height: 0;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity $transition;
+  line-height: 0;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &__img {
+    width: 100%;
+
+    &.pause {
+      display: none;
+    }
+  }
+}
+
+.progress {
+  height: 13px;
+  width: calc(100% - 70px);
+  border-radius: 5px;
+
+  &__bar {
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__duration {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background-color: #666;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-image: linear-gradient(to right, rgb(0, 188, 140) 0%, rgb(61, 133, 140) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #666;
+      cursor: pointer;
+    }
+  }
+
+  &__time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 11px;
+  }
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  &__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    order: 1;
+    margin-right: 10px;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+    @media (max-width: 768px) {
+      margin: 0 12px 0 0;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &.disable {
+      filter: grayscale(1);
+    }
+  }
+
+  &__button-img {
+    height: 20px;
+  }
+
+  &__sound {
+    background-color: #666;
+    width: 100px;
+    height: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-image: linear-gradient(to right, rgb(0, 188, 140) 0%, rgb(61, 133, 140) 100%);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #666;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      max-width: calc(100% - 33px);
+    }
+  }
+}

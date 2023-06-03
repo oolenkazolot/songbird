@@ -1,0 +1,84 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'main.scss';
+@import 'home.scss';
+@import 'top-panel.scss';
+@import 'question.scss';
+@import 'player.scss';
+@import 'answers.scss';
+@import 'bird-details.scss';
+@import 'btn-level.scss';
+@import 'game-results.scss';
+@import 'gallery.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #222;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 20px 20px;
+  margin: 0 auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+.section-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 25px;
+
+  @media (min-width: 768px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.mark {
+  color: $color-main;
+}

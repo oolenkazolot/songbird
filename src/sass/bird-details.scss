@@ -1,0 +1,74 @@
+.bird-details {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: $bg-section;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 15px;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media (min-width: 1248px) {
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+
+  &__img {
+    width: 200px;
+    height: 155px;
+    margin: 0 auto;
+    border-radius: 10px;
+    object-fit: cover;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    @media (min-width: 1248px) {
+      margin-right: 32px;
+    }
+  }
+
+  &__title {
+    margin-top: 20px;
+    padding: 4px;
+    border-bottom: 1px solid #555;
+
+    @media (min-width: 1248px) {
+      margin-top: 0;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    padding: 4px;
+    border-bottom: 1px solid #555;
+  }
+
+  &__description {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  &__player {
+    margin-top: 20px;
+    padding: 4px;
+
+    @media (min-width: 1248px) {
+      margin-top: 10px;
+    }
+  }
+
+  &__instruction-content {
+    display: block;
+  }
+}
